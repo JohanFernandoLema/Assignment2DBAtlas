@@ -1,0 +1,46 @@
+<!--File name: contact.ejs - Name: Johan Lema - Student ID: 301216096 - Date: June 5th, 2022-->
+
+<!--Html file to create and manage contact page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Content/app.css" type="text/css">
+    <link rel="icon" type="text/icon" href="Assets/images/logo.png">
+</head>
+
+<body>
+    <div>
+        <!--fieldset to set up my contact page-->
+    <fieldset id="contactPage">
+        <p>E-mail: <b>jlemafar@my.centennialcollege.ca</b></p>
+        <p>Availability: <b>Monday - Friday (8:00 - 17:00)</b></p>
+        <p>Phone Number: <b>+1 (647) 581 - 6217</b></p>
+        <p>Address: <b>941 Progress Ave, Scarborough, ON M1G 3T8</b></p>
+
+        <!--form to allow the user to contact me-->
+
+        <form id="contactForm" action="/home">
+            <label for="name">Name:</label>
+            <input type="text" name="Uname" id= "fname" required>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="UlastName" id= "lastName" required>
+
+            <label for="phone">E-mail:</label>
+            <input type="text"name="phone" id= "uEmail" required>
+
+            <label for="email">Phone:</label>
+            <input type="text"name="phone" id= "uPhone" required>
+
+            <label for="message">Message:</label>
+            <textarea rows="3" cols="23" name="txtSpecialReg" placeholder="-Information or comments that do you have -- insert here-"></textarea>
+            <input type="submit" name="Contact" value="Contact Now!">
+        </form>
+       </fieldset>
+    </div>
+</body>
+</html>

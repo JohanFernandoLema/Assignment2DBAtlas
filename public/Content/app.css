@@ -1,0 +1,63 @@
+/*File name: app.css - Name: Johan Lema - Student ID: 301216096 - Date: June 5th, 2022
+
+ Custom for pages goes here*/
+
+* { box-sizing: border-box; }
+
+/*Css to set up html in general page*/
+body {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; background-image: url('../Assets/Images/maple.jpg'); background-repeat: no-repeat; background-size: cover;}
+img{height: 300px; width: 400px;}
+#logo{width: 40px; height: 40px; position: absolute; top: -1px; left: -50px;}
+
+/*Css to set up home page*/
+#phrase{text-align: center;}
+div{margin-left: auto; margin-right: auto; width: 80%;}
+img{float:right}
+.winter {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; background-image: url('../Assets/Images/winter.jpg'); background-repeat: no-repeat; background-size: cover;}
+
+#snow {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; background-image: url('../Assets/Images/snow.jfif'); background-repeat: no-repeat; background-size: cover;}
+
+/*Css to set up projects page*/
+#projects { display: grid;grid-template-columns: 220px 220px; grid-template-rows: 350px 350px; text-align: center;}
+#name{position: relative; left: 50px;}
+fieldset {font-size: 1.3em;}
+
+/*Css to set up contact page*/
+form { background-color:#eaeaea; font-family: Arial, sans-serif; padding: 20px; width: 450px;  box-shadow: 5px 5px 5PX black; border-radius:10px; position: relative; left: 60%; top: -5%; text-align: center;}
+#contactForm { background-color:#eaeaea; font-family: Arial, sans-serif; padding: 20px; width: 450px;  box-shadow: 5px 5px 5PX black; border-radius:10px; position: absolute; left: 58%; top: 14%; text-align: center;}
+label { float: left; clear: left;  display: block; width: 100px; text-align: right;  padding-right: 10px;  margin-top: 10px; font-size: .8em; }
+textarea{margin-top: 10px;}       
+#myself{height:250px; width:250px; border-radius: 2em; position: absolute; top: 20px; right:30px;  box-shadow: 5px 5px 5PX black}
+#contactPage{font-size: 1.3em; margin-top: 10%;}
+#account{font-size: small; text-align: center; padding-top: 5px;}
+
+/*Css to set up about me page*/
+p{ display: block; text-align: left; margin-top: 10px; }
+input{ margin-top: 10px;  display: block;}
+input[type= "submit"]{ margin-left: 100px; }
+#intro{margin-left: auto; margin-right: auto; width: 60%; margin-top: 10%; text-align: center; position: relative; top: -20px; padding: 20px;}
+#aboutPage{position: relative; top: 25px; text-align: center;}
+.projectAndServiceTD{width: 400px; height: 300px; text-align: center; padding: 30px;}
+
+/*Css to set up services page*/
+#servicesPage{ display: grid;grid-template-columns: 450px 450px;grid-template-rows: 370px 370px 370px 370px; margin-top: 30px; text-align: center;}
+table{position: absolute; left: 20%; top: 15%;}
+main{margin-left: auto; margin-right: auto; width: 80%;}
+.second{position:absolute; top:130%}
+#boton{position: absolute;left: 20%; top: -50px;}
+.third{position:absolute; top:260%}
+.fourth{position:absolute; top:380%}
+
+.row{position: absolute; top: 20%; left:-5%;}
+
+
+
+
+
+
+
+
+
+
+
+    
